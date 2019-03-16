@@ -1,13 +1,14 @@
 ---
-title: My Second Post!
+title: Season Eight!
 date: "2015-05-06T23:46:37.121Z"
 ---
 
-Wow! I love blogging so much already.
+# We're back wenches!
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
+Development has restarted as we prepare for the final  season of Throne Fantasy.
 
-Yeah, I didn't either.
+Check back in a few weeks for release dates, balance updates, and more!
+
+*And as always...*
+### Valar Morghulis 
+
