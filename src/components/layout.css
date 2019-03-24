@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'CompassPro';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../assets/CompassPro.woff) format('woff'),
+       url(../assets/CompassPro.otf) format('otf'),
+}
+
+.App {
+  font-family:'CompassPro';
+  /* background:linear-gradient(#1A1935, #6A4A69); */
+  /* color: white; */
+  /* max-width: 680px; */
+  /* letter-spacing: 1px; */
+  transition: all 200ms;
+ }
+ .Layout-split{
+  max-width: 540px;
+  margin: 70px auto 20px;
+ }
+
+ .Layout-merge{
+   max-width:540px;
+   margin: 20px auto;
+
+ }
+ @media screen and (min-width: 800px){
+ .Layout-split{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     overflow: hidden;
+     height: 100vh;
+     max-width: 100%;
+     margin: 0;
+ }
+}
+
+.blue{color: #0000ff}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+
+}
+ .Layout__left{
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+
+.Layout__right {
+  overflow-y: scroll;
+}
+
+.Layout__wrong h1{
+  color:#0000ff;
+}
+@media screen and (min-width: 800px){
+  .Layout__right {
+      padding: 10px 40px;
+  }
+}
